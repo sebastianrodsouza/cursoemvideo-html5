@@ -66,3 +66,31 @@ p{
   text-align: justify;
   font-size: 12pt;
 }
+
+/* tabela */
+#tabelaspecs{
+  border: 1px solid #606060;
+  border-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tabelaspecs caption span {
+  display: block;
+  color: black;
+  margin-top: 10px;
+  font-size: 8pt;
+  float: right;
+}
+#tabelaspecs td{
+  border: 1px solid #606060;
+  padding: 10px;
+  
+}
+.ce {
+  color: #fff;
+  background-color: #606060;
+
+}
+.cd {
+  background-color: #cecece;
+}
