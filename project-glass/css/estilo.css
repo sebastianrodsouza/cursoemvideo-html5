@@ -1,18 +1,32 @@
 @charset "utf-8";
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
 @font-face {
   font-family: 'FonteLogo';
   src: url("../fonts/bubblegum-sans-regular.otf");
 }
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #dddddd;
-    color: rgba(0, 0, 0, 1);
-  }
-  /*  */
-  .fontelogo{
-    font-family: 'FonteLogo', sans-serif;  }
+  font-family: Arial, sans-serif;
+  background-color: #dddddd;
+  color: rgba(0, 0, 0, 1);
+}
+
+/*  */
+.fontelogo {
+  font-family: 'FonteLogo', fantasy;
+}
+
+/* posicionamentos da página */
+#interface {
+  background-color: #fff;
+  width: 1000px;
+  margin: -20px auto 0 auto;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+}
+
+#corpo {
+}
